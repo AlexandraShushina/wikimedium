@@ -1,12 +1,14 @@
 nav {
   width: 300px;
-  position: fixed;
+  position: sticky;
   top: 20px;
   left: 20px;
   padding: 30px;
   box-sizing: border-box;
   opacity: .1;
   transition: all .8s ease;
+  line-height: 16px;
+  font-size: 14px;
 }
 nav:hover {
   opacity: 1;
@@ -14,7 +16,6 @@ nav:hover {
 nav p {
   margin: 0;
   font-weight: bold;
-  font-size: 20px;
 }
 nav a {
   text-decoration: none;
@@ -25,8 +26,17 @@ nav ul {
 nav li {
   margin: 10px 0;
   line-height: 20px;
+  font-size: 14px;
 }
-nav ul > ul {
+/* nav ul > ul {
+  margin-left: 10px;
+  color: #777;
+} */
+nav div.grey{
+  margin-left: 10px;
+  color: #777;
+}
+nav div.grey_small{
   margin-left: 10px;
   color: #777;
 }
