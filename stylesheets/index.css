@@ -22,16 +22,19 @@ body {
     object-fit: cover;
 }
 .index-item h1 {
+  font-family: 'PT Sans Caption', sans-serif; font-weight: bold;
   font-size: 32px;
   line-height: 45px;
   font-weight: bold;
 }
 .index-item p{
+  font-family: 'PT Sans Caption', sans-serif;
   font-size: 22px;
   line-height: 30px;
   color: rgba(0, 0, 0, .4);
 }
 .index-item a {
+  font-family: 'PT Sans Caption', sans-serif;
   display: block;
   position: absolute;
   width: 100%;
