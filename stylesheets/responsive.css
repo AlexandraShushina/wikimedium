@@ -43,7 +43,7 @@ article blockquote::before {
   justify-content: space-between;
   align-items: center;
   height: 165px;
-  padding: 0 75px;
+  padding: 0 40px;
   border-bottom: 3px solid #aaa;
   box-shadow: 0 14px 42px 7px rgb(0, 0, 0, 0.5);
   background-color: white;
@@ -98,53 +98,6 @@ article blockquote::before {
 .index-item:nth-of-type(3) {
   margin-top: 75px;
 }
-section {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 252px;
-}
-section div {
-  width: 50%;
-  overflow: hidden;
-  margin-left: 105px;
-}
-section h1 {
-  font-size: 140px;
-  margin-top: 210px;
-  margin-bottom: 133px;
-}
-section p {
-  font-size: 91px;
-  line-height: 5.25;
-}
-section div:nth-of-type(2) h1,
-section div:nth-of-type(2) p:nth-of-type(2) {
-  margin-left: 105px;
-}
-section div:nth-of-type(1) img {
-  margin-top: 119px;
-}
-section:nth-of-type(3) div:nth-of-type(2) img {
-  margin-top: 210px;
-}
-.one {
-  margin-top: 252px;
-}
-.two {
-  margin-top: 70px;
-}
-.bottom_block {
-  padding-top: 280px;
-}
-section a {
-  border: 3.5px solid black;
-  margin-top: 315px;
-}
-.btn {
-  padding: 52px 140px;
-  border-radius: 14px;
-}
-
 }
 @media all and (min-device-width: 768px) and (max-device-width: 1024px) and
 (orientation: landscape) {
